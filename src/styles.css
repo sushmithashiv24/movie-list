@@ -1,0 +1,81 @@
+:root {
+  --dark: #080808;
+  --card: #050505;
+  --body: #000d0d;
+  --border: #5cecbf;
+}
+.App {
+  font-family: sans-serif;
+  /* /* text-align: center; */
+}
+body {
+  margin: 0;
+  background-color: var(--body);
+  color: #f8f8ff;
+}
+nav {
+  background-color: var(--dark);
+  padding-top: 1rem;
+  padding-left: 2.9rem;
+  padding-bottom: 0.1rem;
+}
+/* making logo uof !IMDb */
+.nav-container {
+  padding: 1px 0.5rem;
+  background-color: #f5be3b;
+  color: black;
+  font-size: 5vmin;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+/* outer box */
+#box {
+  margin: 0% 7%;
+  padding: 2rem;
+  /* box-shadow: 9.9rem 2rem #e2e2e2;  */
+}
+/* First heading */
+#heading {
+  font-size: 10vmin;
+  text-align: left;
+  padding-left: 0.5rem;
+  padding-bottom: 2rem;
+  color: #f5be3b;
+  margin: auto;
+}
+/* hediang  Genres */
+#subHeading {
+  font-size: 5vmin;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+.center {
+  text-align: center;
+}
+.expand {
+  display: flex;
+  max-width: 850px;
+  text-align: center;
+  margin: 1rem auto;
+}
+button {
+  flex-grow: 1;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+  /* padding: ; */
+  font-size: 1rem;
+  /* background-color: var(--card); */
+  background-color: #f5be3b;
+  /* color: #ffcf00; */
+  color: var(--card);
+}
+.classBox {
+  margin: 1rem auto;
+  padding: 2.5vmin 3vmin;
+  display: flex;
+  max-width: 650px;
+  font-size: 2.5vmin;
+  background-color: var(--card);
+  border: 1px solid var(--border);
+}
